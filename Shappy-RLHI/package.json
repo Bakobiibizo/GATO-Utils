@@ -1,0 +1,37 @@
+{
+  "name": "shappy",
+  "version": "3.2.1",
+  "description": "A general utilities bot for the Gato Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon .",
+    "start": "node index.js"
+  },
+  "author": "Original repo by Matheson Steplock (ikifar2012) refactor and additions by Bakobiibizo",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bakobiibizo/shappy-RLHI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bakobiibizo/shappy-RLHI/issues"
+  },
+  "homepage": "https://github.com/bakobiibizo/shappy-RLHI#readme",
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^1.7.0",
+    "@tonaljs/tonal": "^4.10.0",
+    "discord-api-types": "^0.37.39",
+    "discord.js": "^14.9.0",
+    "emoji-unicode": "^2.0.1",
+    "figlet": "^1.6.0",
+    "lodash": "^4.17.21",
+    "mariadb": "^3.1.2",
+    "ngrok": "^5.0.0-beta.2",
+    "node-fetch": "^2.6.9",
+    "openai": "^3.2.1"
+  }
+}

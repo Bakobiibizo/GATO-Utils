@@ -1,0 +1,7 @@
+node_modules
+*.txt
+example-data.yml
+data/*
+env.js
+.env
+sa

@@ -1,0 +1,19 @@
+version: '2'
+services:
+  db:
+    image: mariadb:latest
+    volumes:
+      - C:\program Files\MariaDB 10.11\bin\mysqld.exe:/usr/local/bin/mysqld.exe
+    environment:
+      MYSQL_ROOT_PASSWORD: "bomb2662"
+      MYSQL_DATABASE: "bakobot"
+      MYSQL_USER: "bakobot"
+      MYSQL_PASSWORD: "bomb2662"
+    restart: always
+  shappy:
+    build: .
+    volumes:
+      - ./env.js:/app/env.js
+    depends_on:
+      - db
+    restart: always
